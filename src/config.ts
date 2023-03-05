@@ -3,7 +3,7 @@ import type { SocialObjects } from "./types";
 export const SITE = {
   website: "https://RulerOfCakes.github.io",
   author: "Andrew Moon",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "RulerOfCakes's playground",
   title: "RulerOfCakes",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -143,5 +143,5 @@ export const SOCIALS: SocialObjects = [
     href: "https://www.artstation.com/rulerofcakes",
     linkTitle: `${SITE.title} on ArtStation`,
     active: true,
-  }
+  },
 ];
