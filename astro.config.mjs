@@ -33,6 +33,7 @@ export default defineConfig({
           test: "Table of contents",
         },
       ],
+      remarkEmoji,
     ],
     shikiConfig: {
       theme: "one-dark-pro",
