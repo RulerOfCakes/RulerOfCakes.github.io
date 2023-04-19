@@ -32,7 +32,6 @@ const options: ISourceOptions = {
         delay: {
           value: 0,
         },
-        generator: "polygonPathGenerator",
         options: {
           sides: 6,
           turnSteps: 30,
@@ -92,10 +91,8 @@ const options: ISourceOptions = {
 <script>
   import { loadFull } from "tsparticles";
   import { tsParticles } from "tsparticles-engine";
-  import { loadPolygonPath } from "tsparticles-path-polygon";
 
   (async () => {
-    await loadPolygonPath(tsParticles);
     await loadFull(tsParticles);
   })();
 </script>
