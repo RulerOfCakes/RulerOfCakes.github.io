@@ -3,43 +3,88 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hi, my name is Jonggeon Moon(문종건). My first name also goes as **Andrew** at various places.
+Hi, my name is Jonggeon Moon(pronounced _jong-gun moon_). My first name also goes as **Andrew** at various places.
 
-I currently work as a Software Engineer at [Moloco](https://www.moloco.com/) since Februrary of 2023.
+I'm currently an undergraduate student at Hanyang University, majoring in Computer Science.
+I've been a software engineer with a passion for building scalable and efficient systems in the past. I tend to enjoy coming up with creative solutions to complex problems and the Rust programming language.
 
-I :sparkling_heart: video games, rock/metal music, and 3D graphics. Die-hard fan of [Polyphia](https://www.polyphia.com/).
+I :sparkling_heart: video games, rock/metal music, and 3D graphics. Die-hard fan of [Polyphia](https://www.polyphia.com/) and [Sleep Token](https://www.sleep-token.com/).
 Maybe a little bit of competitive programming & software engineering as well.
 
 Below is a brief description of what I've done so far.
 
 # Profession
 
-- ### Software Engineer @ Moloco _(2023/02 ~ )_
+- ### Software Engineer @ Moloco _(2023/02 ~ 2024/02)_
+  - Experiment platform team(ExpLab) supporting all experiments in Moloco
+  - Experiment dashboard management & rewrite from JS -> TS
+  - Construction / management of experiment related data pipelines across company services
+  - Development of the experiment injection framework supporting new feature flags
+  - A/B Testing support for various goals such as infrastructure cost optimization, ML performance optimization
+  - **Tech Stack**: Go, Typescript, Python, GCP, Bigquery, Terraform
 - ### Software Engineer @ Chai Corporation / PortOne _(2022/02 ~ 2023/02)_
   - #### Chai
-    - maintained & enhanced the Bolt & Boost currency ecosystem of Chai
-    - designed & developed the personal Boost recommendation system
+    - maintained & enhanced the Bolt & Boost currency ecosystem of Chai Pay service
+    - designed & developed the personal Boost(user benefits) recommender system
     - **Tech Stack**: Koa.js, Nest.js, Typescript, PostgreSQL, RabbitMQ
   - #### I'mPort / PortOne
     - designed & developed the merchant reconciliation service
+    - PostgreSQL performance tuning via materialized views & migration to TimescaleDB
     - **Tech Stack**: Kotlin, Spring Boot, PostgreSQL, TimescaleDB
+
+# Competitive Programming
+
+- notable participations:
+
+  - 2025 ICPC APAC Championship 58th
+  - 2024 ICPC Seoul Regional 23rd
+  - 2024 LGCPC / SCPC / UCPC Finalist
+  - 2024 Solved.ac GA Party 2nd place (Div. 2)
+
+- I also had a ton of failures before making any notable progress. I'm listing some of my past participations here for the record.
+
+  - 2020 ~ 2023 ICPC Seoul Preliminary
+  - 2021 ~ 2022 Google Codejam Round 2
+  - 2022 ~ 2024 Meta Hackercup Round 2
+  - 2021 ~ 2023 SCPC Round 2
+  - 2020 ~ 2023 UCPC Preliminary
+  - 2020 / 2022 SKH Algorithm Contest ( Marathon / Div 1 )
+
+- **frequent member of** [BOJ](https://www.acmicpc.net/user/andrewmjk1), [Solved.ac](https://solved.ac/profile/andrewmjk1) @andrewmjk1, [Codeforces](https://codeforces.com/profile/rulerofcakes) @rulerofcakes, [AtCoder](https://atcoder.jp/users/rulerofcakes) @rulerofcakes
+- contest coordinator of university contest [**HCPC 2022, 2023**](https://hcpc.hanyang.ac.kr/) - problemset can be viewed below
+  - [2022 Beginner](https://www.acmicpc.net/contest/view/916)
+  - [2022 Advanced](https://www.acmicpc.net/contest/view/917)
+  - [2023 Problemset](https://www.acmicpc.net/category/681)
+  - Participated as contestant in [2024 Advanced div](https://www.acmicpc.net/contest/view/1418), 2nd place
 
 # Education
 
-- Bachelor of Applied Science - BASc, Computer Software Engineering @ Hanyang University _(2020/03 ~ )_
+- Bachelor of Applied Science - BASc, Computer Software Engineering @ Hanyang University _(2020/03 ~ 2025/08)_
 
 # Hobbywork
 
-- ### Basic 3D Graphics Knowledge _(2023/01 ~ )_ - Blender, Three.js
-- ### Competitive Programming Experience _(2020/05 ~ )_ - C++, Kotlin
-  - notable participations include: ICPC, SCPC, UCPC, HCPC, Google Codejam
-  - **frequent member of** [BOJ](https://www.acmicpc.net/user/andrewmjk1), [Solved.ac](https://solved.ac/profile/andrewmjk1) @andrewmjk1
-  - contest coordinator of [**HCPC 2022**](https://hcpc.hanyang.ac.kr/) - problemset can be viewed below
-    - [Beginner](https://www.acmicpc.net/contest/view/916)
-    - [Advanced](https://www.acmicpc.net/contest/view/917)
-- ### Game Development _(2015 ~ )_ - Unity, Unreal Engine, C#, C++
-  - proud member of [Hamster Powered Studio](https://www.hamsterpoweredstudio.com) since 2021
-  - participation in various game jams such as [Ludum Dare](https://ldjam.com/), [Global Game Jam](https://globalgamejam.org/), etc
-- ### Basic Translation Experience - Korean, English
-  - contributed in occasional community translations for video games
-  - semi-professional translation experience for business communications _(2020-07 ~ 2020-08) @ BigSpoon_
+### Basic 3D Graphics Knowledge _(2023/01 ~ )_ - Blender, Three.js, OpenGL, WGPU
+
+- [Shadertoy profile](https://www.shadertoy.com/user/rulerofcakes)
+- [Ray tracing in One Weekend](https://github.com/RulerOfCakes/raytracing-weekend) - implemented in Rust
+- Recently visited SIGGRAPH Asia 2024 in Tokyo, Japan!
+- The day [Rust-GPU](https://github.com/Rust-GPU/rust-gpu) becomes production ready is when I become a graphics engineer. Actually I'm just open to the idea of it.
+
+### Machine Learning
+
+- I've made some DRL environments in Rust & Python to play around with DQN / PPO
+  - [DRLControl](https://github.com/RulerOfCakes/drlcontrol) - Mujoco-based complex robotics environments
+  - [mimic](https://github.com/RulerOfCakes/mimic) - Robotics simulation environment from Bevy & Rapier in Rust
+    - Can run Pytorch-based models with PyO3 interop
+    - This was supposed to be a reproduction of [DeepMimic](https://xbpeng.github.io/projects/DeepMimic/index.html) rewritten in rust, but I couldn't find any suitable physics engines in Rust at the time. (Rapier turned out to not be a good fit for this)
+- [Growing Neural Cellular Automata](https://github.com/RulerOfCakes/gnca) - implemented in Rust with [Burn](https://burn.dev/)
+
+### Game Development _(2015 ~ )_ - Unity, Unreal Engine, C#, C++
+
+- proud member of [Hamster Powered Studio](https://www.hamsterpoweredstudio.com) since 2021
+- participation in various game jams such as [Ludum Dare](https://ldjam.com/), [Global Game Jam](https://globalgamejam.org/), etc
+
+### Basic Translation Experience - Korean, English
+
+- contributed in occasional community translations for video games
+- semi-professional translation experience for business communications _(2020-07 ~ 2020-08) @ BigSpoon_
