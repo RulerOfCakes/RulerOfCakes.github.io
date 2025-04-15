@@ -8,6 +8,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 import mdx from "@astrojs/mdx";
+import remarkGithubAlerts from "remark-gh-alerts";
+import remarkParse from "remark-parse";
 
 // https://astro.build/config
 export default defineConfig({
@@ -33,6 +35,8 @@ export default defineConfig({
           test: "Table of contents",
         },
       ],
+      remarkParse,
+      remarkGithubAlerts,
       remarkEmoji,
     ],
     shikiConfig: {
