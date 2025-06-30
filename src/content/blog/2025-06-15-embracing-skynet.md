@@ -15,6 +15,8 @@ description: No, I don't think I will(in the near future).
 
 ---
 
+# Embracing Skynet
+
 I've recently come to realize that the power of generative AI has become a more of a serious concern for younger students at my university, especially for Computer Science students. They are now prevalently using generative AI tools like ChatGPT and Copilot to help them with their assignments and exam preparations, with many of them spending less time and effort on studying the topics themselves. At the same time, increasingly more students are expressing their concerns about such powerful AI tools taking over all job opportunities for them in the near future, and how they should be preparing for other jobs to embrace the inevitable rise of [**_Skynet_**](<https://en.wikipedia.org/wiki/Skynet_(Terminator)>).
 
 Maybe it's because I'm pretty much just waiting for graduation at this point with a few years of experience in the industry, but I couldn't help but feel a sense of disconnectivity with the general sentiment of the students around me, especially regarding this topic. So I think it's a good time to share my thoughts on this topic, and what we could do against the inevitable rise of Skynet.
